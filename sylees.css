@@ -1,0 +1,90 @@
+.yb {
+    color: red;
+}
+
+.dp img {
+    border-radius: 100px;
+}
+
+.dp1 img {
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.fixed {
+    position: fixed !important;
+    z-index: 1;
+    position: absolute;
+    padding: 10px;
+}
+
+.fixed a {
+    position: relative;
+    top: 10px;
+}
+
+.hello {
+    margin-top: 30px;
+    margin-left: 139px;
+}
+
+.ph {
+    position: relative;
+    top: 70px;
+}
+
+@media screen and (max-width:576px) {
+    .it input {
+        display: none;
+    }
+
+    .sh i {
+        margin-left: -5px;
+    }
+
+    .hello {
+        width: auto;
+        overflow: auto;
+        position: fixed;
+        white-space: nowrap;
+        margin-top: 30px;
+        z-index: 1;
+        left: -124px;
+    }
+
+    .hl {
+        display: none;
+    }
+
+    .ph {
+        position: relative;
+        left: -100px;
+    }
+}
+
+.az {
+    margin-left: 170px;
+    margin-top: 4px;
+    white-space: nowrap;
+}
+
+.hl {
+    line-height: 50px;
+    position: fixed;
+    overflow-x: auto;
+    height: 100%;
+    width: 150px;
+    padding: 10px;
+    margin-top: -40px;
+}
+
+.hl a {
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+}
